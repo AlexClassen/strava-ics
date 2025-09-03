@@ -6,7 +6,6 @@
   "description": "Vercel serverless: Strava -> ICS for Apple Calendar",
   "scripts": {
     "deploy": "vercel --prod",
-    "build": "tsc -p ."
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
