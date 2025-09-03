@@ -1,0 +1,17 @@
+{
+  "name": "strava-ics",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vercel serverless: Strava -> ICS for Apple Calendar",
+  "scripts": {
+    "deploy": "vercel --prod",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@vercel/node": "^5.3.19",
+    "typescript": "^5.9.2",
+    "vercel": "^37.0.0"
+  }
+}

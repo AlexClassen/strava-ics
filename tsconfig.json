@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // ESM in Node
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+
+    // Types (important: you had [] which hides Node globals)
+    "types": ["node", "@vercel/node"],
+
+    // Output (build not strictly needed for Vercel, but useful locally)
+    "sourceMap": true,
+    "declaration": false,
+    "declarationMap": false,
+    "outDir": "./dist",
+
+    // Hygiene / perf
+    "strict": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true
+  },
+  "include": ["api/**/*.ts", "*.ts"]
+}
